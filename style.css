@@ -1,0 +1,39 @@
+@font-face 
+{
+  font-family: 'MainFont';
+  src:  url('CPB.ttf');
+}
+
+body 
+{  
+    background-image: url("pozadiev2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    padding: 0cm 25%;
+    color: #E8E8D3;
+    font-family: 'MainFont';
+    font-size: 18px;
+    text-align: justify;
+}
+
+#bigh1
+{
+  font-size: 100px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+#mena
+{
+  margin-top: -5%;
+  margin-bottom: +3%;
+  text-align: center;
+}
+
+.lajna
+{
+	margin-top: -0.5cm;
+}
