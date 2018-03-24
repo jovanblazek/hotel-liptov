@@ -6,7 +6,7 @@ body, html
 
 body
 {
-	font-family: 'Open-Sans', sans-serif;
+	font-family: 'Open Sans';
 }
 
 
@@ -27,6 +27,31 @@ body
 	background-color: rgba(150,10,20,0.95);
 	position: sticky;
 	top: 0;
+}
+
+#header-mini
+{
+	background: url("../images/bg2.jpg");
+	min-height: 50%;
+
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.mini-text
+{
+	text-align: center;
+	color: #FFF;
+	font-size: 50px;
+	font-weight: 100;
+	text-shadow: 0px 0px 20px black;
+	position: absolute;
+	top: 25%;
+	right: 0;
+	left: 0;
+	text-transform: uppercase;
+	letter-spacing: 5px;
 }
 
 #menu2 /*nav2*/
@@ -144,7 +169,17 @@ main
 	font-weight: 400;
 }
 
-main>div>h2
+.main-nadpis
+{
+	color: #960A14;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 400;
+	/*margin-bottom: 2em;*/
+	text-align: center;
+}
+
+#main-index>div>h2
 {
 	font-family: "Playfair Display", sans-serif;
 	font-size: 36px;
@@ -180,6 +215,7 @@ main>div>h2
 	background-size: cover;
 	background-attachment: scroll;
 	background-position: center;
+	width: 100%;
 	height: 400px;
 }
 
@@ -232,6 +268,68 @@ footer
 }
 
 .footer-box>ul>li>.fas{ margin-right: 10px; color: white}
+
+/*UBYTOVANIE*/
+.izba-nazov
+{
+	color: #960A14;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: 0.5em;
+}
+
+.izba-link, .izba-link:hover, .izba-link:visited
+{
+	color: #8E8E8E;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.izba-link>h4  /*VIAC INFO...*/
+{
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+
+.izba-img-1
+{
+	background: url("../images/izba1.jpg");
+}
+.izba-img-2
+{
+	background: url("../images/izba2.jpg");
+}
+.izba-img-3
+{
+	background: url("../images/izba3.jpg");
+}
+.izba-img-4
+{
+	background: url("../images/izba4.jpg");
+}
+.izba-img-5
+{
+	background: url("../images/izba5.jpg");
+}
+
+.izba-img-1, .izba-img-2, .izba-img-3, .izba-img-4, .izba-img-5
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center;
+	width: 100%;
+	height: 300px;
+}
+
+.izba-1, .izba-2, .izba-3, .izba-4, .izba-5
+{
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+
+
 
 @media screen and (min-width: 800px) 
 {
@@ -293,13 +391,14 @@ footer
 		color: white;
 		text-decoration: none;
 		padding: 0.4em 0; /*dolezite pre underline efekt*/
+		font-weight: 500;
 		letter-spacing: 1px;
 		border: none;
 		display: inline-block;
 		text-align: center;
 	}
 
-	main
+	#main-index
 	{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -330,6 +429,35 @@ footer
 	.box-2, .box-4, .box-6, .box-8, .box-10
 	{
 		height: auto;
+	}
+	
+	/*UBYTKO*/
+	#main-ubytovanie
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: 
+		"main-nadpis-div main-nadpis-div"
+		"izba-1 izba-2"
+		"izba-3 izba-4"
+		"izba-5 .";
+	}
+
+	.main-nadpis-div{grid-area: main-nadpis-div;}
+	.izba-1{grid-area: izba-1;}
+	.izba-2{grid-area: izba-2;}
+	.izba-3{grid-area: izba-3;}
+	.izba-4{grid-area: izba-4;}
+	.izba-5{grid-area: izba-5;}
+
+	.izba-img-1, .izba-img-2, .izba-img-3, .izba-img-4, .izba-img-5
+	{
+		height: 350px;
+	}
+
+	.main-nadpis
+	{
+		font-size: 30px;
 	}
 
 
