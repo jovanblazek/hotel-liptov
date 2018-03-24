@@ -9,6 +9,14 @@ body
 	font-family: 'Open-Sans', sans-serif;
 }
 
+@media screen and (max-width: 799px)
+{
+	#menu2>ul
+	{
+		height: 0;
+	}
+}
+
 #header1
 {
 	background: url("../images/bgMain.jpg");
@@ -54,6 +62,7 @@ body
 
 #menu2>ul.open
 {
+	z-index: 999;
 	height: auto;
 }
 
@@ -361,10 +370,3 @@ footer
 	}
 }
 
-@media screen and (max-width: 799px)
-{
-	#menu2>ul
-	{
-		height: 0;
-	}
-}
