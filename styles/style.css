@@ -187,6 +187,7 @@ main
 	font-weight: 400;
 	/*margin-bottom: 2em;*/
 	text-align: center;
+	padding: 0 1em 0 1em;
 }
 
 #main-index>div>h2
@@ -764,4 +765,15 @@ textarea
 	{
 		height: 0;
 	}
+	
+	.mini-text
+	{
+		font-size: 42px;
+	}
+	
+	.parallax-text
+	{
+		font-size: 60px;
+	}
+
 }
