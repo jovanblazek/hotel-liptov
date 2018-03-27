@@ -241,7 +241,7 @@ main
 
 footer
 {
-	background-color: #333;
+	background-color: #212121;
 }
 
 .footer-box
@@ -637,6 +637,8 @@ textarea
 		"izba-1 izba-2"
 		"izba-3 izba-4"
 		"izba-5 .";
+		grid-gap: 1em;
+		margin: 0 1em 0 1em;
 	}
 
 	.main-nadpis-div{grid-area: main-nadpis-div;}
@@ -646,9 +648,14 @@ textarea
 	.izba-4{grid-area: izba-4;}
 	.izba-5{grid-area: izba-5;}
 
+	.izba-1, .izba-2, .izba-3, .izba-4, .izba-5
+	{
+		margin: 0;
+	}
+
 	.izba-img-1, .izba-img-2, .izba-img-3, .izba-img-4, .izba-img-5
 	{
-		height: 350px;
+		height: 400px;
 	}
 
 	.main-nadpis
@@ -757,6 +764,7 @@ textarea
 	  left: 0;
 	  right: 0;
 	}
+
 }
 
 @media screen and (max-width: 799px)
