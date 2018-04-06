@@ -62,6 +62,8 @@
 			<div class="izba-nadpis-div">
 				<h3 class="izba-nadpis">Dvojlôžková izba</h3>
 			</div>
+			
+			<div class="izba-info-wrapper">
 
 			<div class="izba-info">
 				<i class="far fa-check-square"></i>
@@ -95,6 +97,18 @@
 				<i class="far fa-check-square"></i>
 				<span class="izba-info-hlava">Balkón</span><span class="izba-info-pata">Áno, niektoré izby</span>
 			</div>
+			</div> <!-- koniec izba info wrapperu -->
+
+			<div class="izba-info-text">
+				<p>
+					V dvojlôžkovej izbe sa nachádzajú 2 pevné lôžka, LCD TV so satelitným príjmom, stolík s nočnou lampou a stoličkou. Izba má vlastnú kúpeľňu so sprchovým kútom , WC, umývadlom, tekutým mydlom, zrkadlom a rebríkovým radiátorom. Na izbe sú pre každú osobu pripravené uteráky s osuškami.
+				</p>
+				<p>
+					<strong>Ubytovaní hostia majú v cene zahrnuté:</strong><br>
+					WiFi pripojenie na internet, parkovisko monitorované kamerovým systémom, úschovňu lyží počas zimnej sezóny, stolný tenis, detský kútik.
+				</p>
+				<h3 class="rezervacia"><a onclick="rezervacia()">Predbežná rezervácia</a></h3>
+			</div>
 	
 		</main>
 		<footer>
@@ -118,6 +132,12 @@
 function myFunction(x) 
 {
     x.classList.toggle("change");
+}
+
+function rezervacia()
+{
+	location = location;
+	alert("V tomto momente je penzión plný.");
 }
 </script>
 
