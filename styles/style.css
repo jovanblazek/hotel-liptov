@@ -15,7 +15,6 @@ body
 	background: url("../images/bgMain.jpg");
 	min-height: 100%; 
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,7 +111,7 @@ body
 {
 	color: #FFF;
 	padding: 10px;
-	border-bottom: 1px solid #404040;
+	border-bottom: 1px solid #FFF;	/*#404040*/
 	display: block;
 	margin: 0;
 	text-decoration: none;
@@ -403,7 +402,6 @@ footer
 	background: url("../images/rest-jedla.jpg");
 	min-height: 100%; 
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -884,7 +882,7 @@ textarea
 	  z-index: -1;
 	  left: 50%;
 	  right: 50%;
-	  bottom: 0;  /* toto som menil, bolo tam 0*/
+	  bottom: 0;
 	  background: #FFF;  /*2098D1*/
 	  height: 4px;
 	  -webkit-transition-property: left, right;
