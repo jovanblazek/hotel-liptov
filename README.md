@@ -3,7 +3,7 @@
 
 First "complex" page I have ever done. Built using HTML, CSS and a bit of Javascript.
 
-[Demo](https://jovanblazek.github.io/tiu/index.html)
+[Demo](https://jovanblazek.github.io/hotel-liptov/)
 
 ## Features
 - Responsive 📱
